@@ -2,7 +2,8 @@ from search.logic.x_crawling import x_crawling
 from search.logic.fm_crawling import fm_crawling
 from search.logic.dc_crawling import dc_crawling
 from search.logic.google_crawling import google_crawling
-
+#! todo : 모듈화 작업 중 누락된 로직 : 본래 크롤링 실행 시 모든 데이터 크롤링이 진행되었는데, 현재 시각 데이터가 크롤링되는 문제 해결 필요
+#! todo : 블로깅 로직 완성
 def main():
     while True:
         print("1. 데이터 크롤링")
